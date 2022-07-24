@@ -2,6 +2,12 @@
 <html lang="en">
   <head>
     <title>The Basic language of the web: HTML</title>
+    <!--Link and img tag ends with slash-->
+    <!--Link tag is used to link css file-->
+    <link
+      href="C:/Users/krant/visualstudiocode-workspace/WebDevelopment/Css/style.css"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <!--As we increase headings the text size will be decreased-->
@@ -9,15 +15,13 @@
     <h1>The Basic language of the web: HTML</h1>
     <h2>The Basic language of the web: HTML</h2>
     <h3>The Basic language of the web: HTML</h3>
-    <h4>The Basic language of the web: HTML</h4>
-    <h5>The Basic language of the web: HTML</h5>
     <h6>The Basic language of the web: HTML</h6>
     -->
     <header>
       <h1>The Code Magazine</h1>
     </header>
     <!--we can also use <b></b> to make bold-->
-    <p>Posted by <strong>Kranthi kumar</strong> on July 23 2022</p>
+    <p id="author">Posted by <strong>Kranthi kumar</strong> on July 23 2022</p>
 
     <article>
       <p>
@@ -89,7 +93,7 @@
         <li>
           <img src="images//codingimage1.jpg" width="100" height="50" />
           <a href="#">First Coding Image</a>
-          <p>Backend Developer</p>
+          <p class="dev">Backend Developer</p>
         </li>
         <li>
           <img src="images//codingimage2.jpg" width="100" height="50" />
@@ -103,5 +107,8 @@
         </li>
       </ul>
     </aside>
+    <a>Anchor Tag without attribute</a>
+    <h4>The Basic language of the web: HTML</h4>
+    <h5>The Basic language of the web: HTML</h5>
   </body>
 </html>

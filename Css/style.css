@@ -1,0 +1,76 @@
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: sans-serif;
+}
+
+h1 {
+  font-size: 25px;
+  text-transform: uppercase;
+  font-style: italic;
+  text-align: center;
+  color: #1098ad;
+}
+/*We can navigate to an element from a parent*/
+footer {
+  font-size: 16px;
+}
+
+/*We can access an element using an id represented by #*/
+/* We can use each id name only once */
+#author {
+  font-style: italic;
+}
+/* Instead of using # for styling use class and it is represented by . */
+.dev {
+  font-weight: bold;
+}
+
+/* Remove bullet points 
+ul {
+  list-style: none;
+}
+*/
+
+header {
+  background-color: #f7f7f7;
+}
+
+/* Add Border */
+aside {
+  border: 5px solid #1098ad;
+  background-color: #f7f7f7;
+}
+
+/* We can also specify without using class name */
+/* Dont give spaces */
+li:first-child {
+  font-weight: bold;
+}
+
+/* Styling of anchor elements */
+a:any-link {
+  color: #1098ad;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #1098ad;
+  text-decoration: none;
+}
+
+a:hover {
+  color: orangered;
+  text-decoration: underline dotted orangered;
+  font-weight: bold;
+}
+/* LVHA */
+a:active {
+  font-style: italic;
+}
+
+/* Conflicts between selectors
+Highest priority for five declaration marked as important, fourth inline style attribute, three id#, two class or pseudo class.:, one element selector div, p,li a, zero universal selector*
+*/
